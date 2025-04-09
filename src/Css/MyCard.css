@@ -1,0 +1,62 @@
+.card-container{
+    width: 90%;
+    height: 20%;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px rgb(0,0,0,0.2);
+}
+
+.card-container-bg{
+    background-color: #DDDDFF;
+}
+
+.card-container .product-content-container
+.card-container .quantity-container{
+    height: 100%;
+    width: 50%;
+    /* background-color: lightpink; */
+}
+
+
+
+.card-container .product-content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-container .quantity-container{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: end;
+    /* background-color: yellowgreen; */
+    font-size: 18px;
+    font-weight: bold;
+    gap: 10px;
+}
+.card-container .quantity-container{
+    display: flex;
+}
+
+.card-container .quantity-container-hidden{
+    display: none;
+}
+
+.card-container .quantity-container .zero{
+    background-color: goldenrod;
+    padding: 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card-container .quantity-container .btn{
+    padding: 6px;
+    font-size: 24px;
+    border: none;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
